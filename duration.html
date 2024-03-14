@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.total {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="date"],
+select,
+input[type="button"] {
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+#duration {
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* .h1 {
+    display: flex;
+} */
+
+    </style>
+
+
+</head>
+<body>
+   
+    <div class="total">
+        <div class="h1">
+            <h1>your  coures duration</h1>
+        </div>
+        
+        <div class="card">
+            <div>
+                <label for="joindate">JOIN DATE: </label>
+                <input type="date" id="joindate">
+            </div>
+            <div>
+                <label for="courseselection">SELECT YOUR COURSE:</label>
+                <select id="courseselection"></select>
+            </div>
+            <input type="button" id="btnid" value="COURSE DURATION">
+            <div id="duration"></div>
+        </div>
+    </div>
+    <script src="duration.js"></script>
+</body>
+</html>
