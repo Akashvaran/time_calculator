@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+.calculator {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    min-height: 400px;
+    width: 620px;
+    margin: 100px auto;
+    border: 5px solid blueviolet;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.base h2 {
+    text-align: center;
+    color: blue;
+}
+
+.block {
+    width: 100px;
+    padding: 5px 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(147, 147, 255);
+    text-align: center;
+}
+
+input[type=text] {
+    width: 120px;
+    height: 30px;
+    border: 3px solid green;
+}
+
+input[type=button] {
+    height: 30px;
+    width: 100px;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+}
+
+.age {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+}
